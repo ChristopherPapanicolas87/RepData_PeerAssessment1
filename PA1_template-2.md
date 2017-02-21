@@ -52,7 +52,7 @@ hist(x=dailysum,
      main="The distribution of daily total (missing data ignored)")
 ```
 
-![](PA1_template_files/figure-markdown_github/plot1.png)
+![](https://github.com/ChristopherPapanicolas87/RepData_PeerAssessment1/blob/master/plot1.png)
 
 Mean and Median of steps taken per day
 --------------------------------------
