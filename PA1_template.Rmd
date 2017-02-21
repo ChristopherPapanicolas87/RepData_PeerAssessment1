@@ -2,7 +2,9 @@
 title: "Data Analysis of Fitbit Data"
 author: "Chris"
 date: "February 20, 2017"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 ##Abstract
 ###Fitbit, Nike, and Jawbone (2015) personal activitity monitoring devices enable capture for large amount of data about personal movement. This report makes use of sample data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October andNovember, 2012 and include the number of steps taken in 5 minute intervals each day.
@@ -146,6 +148,6 @@ xy <- xyplot(steps ~ interval | factor(wk),
        type="l",
        lty=1,
        data=aggregatedmean)
-       
+       print(xy)
 ```
 
