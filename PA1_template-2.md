@@ -94,7 +94,7 @@ with(dframe,
           ylab="average steps in the interval across all days"))
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-5-1.png) \#\#The 5-minute interval that, on average, contains the maximum number of steps
+![](https://github.com/ChristopherPapanicolas87/RepData_PeerAssessment1/blob/master/plot2.png) \#\#The 5-minute interval that, on average, contains the maximum number of steps
 
 ``` r
 z <- maxnumberofsteps <- max(dframe$meansteps)
@@ -134,7 +134,7 @@ hist(x=new_dailysum,
      main="The distribution of daily total (with missing data)")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-8-1.png) \#\#Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
+![](https://github.com/ChristopherPapanicolas87/RepData_PeerAssessment1/blob/master/plot3.png) \#\#Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
 ``` r
 #Find mean and median of new analysis (ne_dailysum)
@@ -179,4 +179,4 @@ xy <- xyplot(steps ~ interval | factor(wk),
        print(xy)
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](https://github.com/ChristopherPapanicolas87/RepData_PeerAssessment1/blob/master/Rplot4.png)
